@@ -6,6 +6,112 @@
     <title>Pizzalicious</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Pizzalicious</h1>
+        <p>Pizza tailored just for you</p>
+    </header>
+    <main>
+        <article>
+            <img src="" alt="">
+            <div>
+                <h2>Pizzalicious - a pizza tailored just for you</h2>
+                <p>Pizzalicious is famous for tailoring a pizza just for you. Why you ask? You decide what goes on your pizza and only you.</p>
+                <a href="">Customize your own pizza now</a>
+                <p>Got any questions?</p>
+                <a href="">Contact us</a>
+            </div>
+        </article>
+        <article>
+            <h2>Customize your pizza</h2>
+            <form>
+                <fieldset>
+                    <legend>Choose your crust</legend>
+                    <label for="crust-1">Thick</label>
+                    <input type="radio" id="crust-1" name="crust" value="thick">
+                    <label for="crust-2">Thin</label>
+                    <input type="radio" id="crust-2" name="crust" value="thin">
+                    <label for="crust-3">Deep</label>
+                    <input type="radio" id="crust-3" name="crust" value="deep">
+                    <label for="crust-4">Cheese-filled</label>
+                    <input type="radio" id="crust-4" name="crust" value="cheese-filled">
+                </fieldset>
+                <fieldset>
+                    <legend>Choose your sauce</legend>
+                    <label for="crust-1">Tomato sauce</label>
+                    <input type="radio" id="sauce-1" name="sauce" value="tomato">
+                    <label for="crust-2">Spicy tomato sauce</label>
+                    <input type="radio" id="sauce-2" name="sauce" value="spicy">
+                    <label for="crust-3">Alfredo sauce</label>
+                    <input type="radio" id="sauce-3" name="sauce" value="alfredo">
+                    <label for="crust-4">BBQ sauce</label>
+                    <input type="radio" id="sauce-4" name="sauce" value="bbq">
+                    <label for="crust-4">Pesto</label>
+                    <input type="radio" id="sauce-5" name="sauce" value="pesto">
+                </fieldset>
+                <fieldset>
+                    <legend>Choose your toppings</legend>
+                    <label for="topping-1">Pepperoni</label>
+                    <input type="checkbox" id="topping-1" name="topping" value="pepperoni">
+                    <label for="topping-2">Mushrooms</label>
+                    <input type="checkbox" id="topping-2" name="topping" value="mushrooms">
+                    <label for="topping-3">Onions</label>
+                    <input type="checkbox" id="topping-3" name="topping" value="onions">
+                    <label for="topping-4">Sausages</label>
+                    <input type="checkbox" id="topping-4" name="topping" value="sausages">
+                    <label for="topping-5">Bacon</label>
+                    <input type="checkbox" id="topping-5" name="topping" value="bacon">
+                    <label for="topping-6">Black olives</label>
+                    <input type="checkbox" id="topping-6" name="topping" value="black-olives">
+                    <label for="topping-7">Green peppers</label>
+                    <input type="checkbox" id="topping-7" name="topping" value="green-peppers">
+                    <label for="topping-8">Pineapple</label>
+                    <input type="checkbox" id="topping-8" name="topping" value="pineapple">
+                    <label for="topping-9">Spinach</label>
+                    <input type="checkbox" id="topping-9" name="topping" value="spinach">
+                    <label for="topping-11">Ham</label>
+                    <input type="checkbox" id="topping-10" name="topping" value="ham">
+                    <label for="topping-11">Tomato</label>
+                    <input type="checkbox" id="topping-11" name="topping" value="tomato">
+                    <label for="topping-12">Chicken</label>
+                    <input type="checkbox" id="topping-12" name="topping" value="chicken">
+                    <label for="topping-13">Kebab</label>
+                    <input type="checkbox" id="topping-13" name="topping" value="kebab">
+                    <label for="topping-14">Minced meat</label>
+                    <input type="checkbox" id="topping-14" name="topping" value="minced-meat">
+                    <label for="topping-15">Gorgonzola</label>
+                    <input type="checkbox" id="topping-15" name="topping" value="gorgonzola">
+                    <label for="topping-16">Feta</label>
+                    <input type="checkbox" id="topping-16" name="topping" value="feta">
+                    <label for="topping-17">Egg</label>
+                    <input type="checkbox" id="topping-17" name="topping" value="egg">
+                    <label for="topping-18">Fresh basil</label>
+                    <input type="checkbox" id="topping-18" name="topping" value="basil">
+                </fieldset>
+                <fieldset>
+                    <legend>When do you want to have your pizza ready?</legend>
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="order-date" min="2020-01-01" max="2020-01-06">
+                    <label for="time">Time</label>
+                    <input type="time" id="time" name="order-time" min="09:00" max="23:00">
+                </fieldset>
+                <button type="submit">Order your pizza</button>
+            </form>
+        </article>
+        <article>
+            <h2>Contact</h2>
+            <form>
+                <label for="c-name">Name</label>
+                <input type="text" id="c-name">
+                <label for="c-email">Email</label>
+                <input type="text" id="c-email">
+                <label for="c-message">Message</label>
+                <textarea id="c-message"></textarea>
+                <button type="submit">Send message</button>
+            </form>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; Copyright 2020</p>
+    </footer>
 </body>
 </html>
