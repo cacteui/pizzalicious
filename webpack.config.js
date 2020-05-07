@@ -4,11 +4,18 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-    entry: './src/index.js',
+    entry: './src/js/index.js',
     output: {
         filename: 'js/bundle.[contenthash].js',
         path: path.resolve(__dirname, './dist'),
         publicPath: '' // This should be the domain name in production mode
+    },
+    resolve: {
+        alias: {
+            controllers: path.resolve(__dirname, './src/js/controllers/'),
+            models: path.resolve(__dirname, './src/js/models/'),
+            views: path.resolve(__dirname, './src/js/views/')
+        }
     },
     mode: "none",
     module: {
