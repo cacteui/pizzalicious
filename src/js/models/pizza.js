@@ -1,8 +1,6 @@
 export default class Pizza {
-    constructor(crust, sauce, toppings) {
-        this.crust = crust;
-        this.sauce = sauce;
-        this.toppings = toppings;
+    constructor() {
+        this.toppings = [];
     }
 
     addCrust(value) {
