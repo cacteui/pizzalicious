@@ -24,18 +24,22 @@
         <article class="customize__wrapper">
             <h2 class="customize__title">Customize your pizza</h2>
             <form class="customize">
-                <fieldset class="customize__section">
+                <fieldset class="customize__section" id="crust">
                     <legend class="customize__section-title">Choose your crust</legend>
+
                     <label class="customize__radio-label" for="crust-1">Thick</label>
                     <input class="customize__radio" type="radio" id="crust-1" name="crust" value="thick">
+
                     <label class="customize__radio-label" for="crust-2">Thin</label>
                     <input class="customize__radio" type="radio" id="crust-2" name="crust" value="thin">
+
                     <label class="customize__radio-label" for="crust-3">Deep</label>
                     <input class="customize__radio" type="radio" id="crust-3" name="crust" value="deep">
+                    
                     <label class="customize__radio-label" for="crust-4">Cheese-filled</label>
                     <input class="customize__radio" type="radio" id="crust-4" name="crust" value="cheese-filled">
                 </fieldset>
-                <fieldset class="customize__section">
+                <fieldset class="customize__section" id="sauce">
                     <legend class="customize__section-title">Choose your sauce</legend>
                     <label class="customize__radio-label" for="crust-1">Tomato sauce</label>
                     <input class="customize__radio" type="radio" id="sauce-1" name="sauce" value="tomato">
@@ -48,7 +52,7 @@
                     <label class="customize__radio-label" for="crust-4">Pesto</label>
                     <input class="customize__radio" type="radio" id="sauce-5" name="sauce" value="pesto">
                 </fieldset>
-                <fieldset class="customize__section">
+                <fieldset class="customize__section" id="toppings">
                     <legend class="customize__section-title">Choose your toppings</legend>
                     <div class="spinner">
                         <button class="spinner__btn--decrease" type="button">&#45;</button>
